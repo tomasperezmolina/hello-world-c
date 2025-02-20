@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-  int returnValue = system("./hello-world");
+  int returnValue = system("hello-world");
 
   if (returnValue) {
     printf("TEST FAILED!\n");
